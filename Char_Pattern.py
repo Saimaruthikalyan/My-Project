@@ -1,4 +1,4 @@
-#=======================Character PAttern===============================
+#=======================Character Pattern===============================
 a=input("Ente the Character:")
 n = int(input("Enter odd number of rows:"))
 for i in range(1, n+1):
