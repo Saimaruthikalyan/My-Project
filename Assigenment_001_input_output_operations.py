@@ -83,8 +83,9 @@ print(f"{game} 😍")
 
 ##  16. Ask for your favourite season and print it in uppercase.
 
-season= input('your favourite season:- ')
-print(season.upper())
+season = input("Your favourite season: ")
+a = season.upper()
+print(f"My Favourite Season is {a}")
 
 ##  17. Input a book name and print it inside asterisks: ***Book Name***
 
