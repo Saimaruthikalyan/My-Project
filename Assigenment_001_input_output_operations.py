@@ -6,7 +6,7 @@
 ##  1. Ask for your name and print it.
 
 name=input('Enter your name:- ')
-print(name)
+print(f"My Name is {name}")
 
 ##  2. Ask for your favourite colour and print it with a message.OUR
 
@@ -79,7 +79,7 @@ print(f'{movie} "I Love this movie!"')
 ##  15. Ask for your favourite game and print it with a emoji.
 
 game=input('your favourite game:- ')
-print(f"{game} 😍")
+print(f"My Favourite Game is {game} 😍")
 
 ##  16. Ask for your favourite season and print it in uppercase.
 
@@ -110,7 +110,7 @@ print(f" Let's play {sport}!")
 ##  21. Ask for your favorite song and print: "Now playing: [song]"
 
 song=input('enter your favourite song:- ')
-print(f"Now playing: {song}")
+print(f"Now playing {song} is My Favourite song")
 
 ##  22. Input a message and print it in the title case.
 
