@@ -79,12 +79,13 @@ if movie:
 ## 15. Ask for your favourite game and print it with a emoji.
 game = input('your favourite game:- ')
 if game:
-    print(f"{game} 😍")
+    print(f"{game} is My Favourite Game 😍")
 
 ## 16. Ask for your favourite season and print it in uppercase.
 season = input('your favourite season:- ')
 if season:
-    print(season.upper())
+  a=season.upper()
+  print(f"My Favourite season is {a}")
 
 ## 17. Input a book name and print it inside asterisks.
 book = input('enter a book name:- ')
@@ -99,7 +100,8 @@ if height:
 ## 19. Input your birth month.
 month = input('enter your birth month:- ')
 if month:
-    print(month.lower())
+  a=month.lower()
+  print(f"My Birth Month is {a}")
 
 ## 20. Ask for your favorite sport.
 sport = input('enter your favourite sport:- ')
@@ -109,12 +111,13 @@ if sport:
 ## 21. Ask for your favorite song.
 song = input('enter your favourite song:- ')
 if song:
-    print(f"Now playing: {song}")
+    print(f"Now Playing Song {song} is My Favourite Song")
 
 ## 22. Input a message and print it in the title case.
 message = input('enter a message:- ')
 if message:
-    print(message.title())
+  a=message.title()
+  print(f"The Title is {a}")
 
 ## 23. Ask for a fruit name.
 fruit = input('enter fruit name:- ')
@@ -129,7 +132,7 @@ if place:
 ## 25. Ask for your favorite app.
 app = input('enter your favourite app:- ')
 if app:
-    print(f"{app} 📱")
+  print(f"My Favourite App is {app} 📱")
 
 ## 26. Input a quote.
 quote = input('enter a quote:- ')
@@ -137,9 +140,9 @@ if quote:
     print(f'"{quote}"')
 
 ## 27. Ask for a car brand.
-brand = input('car brand:- ')
+brand = input('Enter the car brand:- ')
 if brand:
-    print(f"{brand} is a nice car")
+    print(f"{brand} is My favourite car")
 
 ## 28. Ask for your nickname.
 nickname = input('enter your nickname:- ')
