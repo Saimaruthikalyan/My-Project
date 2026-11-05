@@ -3,7 +3,7 @@
 ##-------------------------------------------------------------------------
 ##                       if_else statements
 ##-------------------------------------------------------------------------
-'''# 1. Check if a number is even or odd.
+# 1. Check if a number is even or odd.
 num=int(input("Enter The Number:"))
 if num%2==0:
     print("The Number is a Even Number")
@@ -30,9 +30,9 @@ else:
 # 5.Check if a string is a palindrome or not.
 k=input("Enter The String:")
 if k==k[::-1]:
-    print("The Given Number is a Palindrome Number")
+    print("The Given String is a Palindrome ")
 else:
-    print("The Given Number is not a Palindrome Number")
+    print("The Given String is not a Palindrome ")
 # 6.Find the largest of two numbers.
 
 a=int(input("Enter The Number1:"))
@@ -80,11 +80,12 @@ else:
     print(f" The Number {num} is not Multiples of Both 3 & 5")
 # 13.Determine if a person is eligible for senior citizen benefits.
 age=int(input("Ehter the Age:"))
-if age>59:
+if age>60:
     print("You are Eligible for Senior Citizen Benefits")
 else:
-    print("You are not Eligible for Senior Citizen Benefits")'''
-# 14. Check if a file path is valid.
+    print("You are not Eligible for Senior Citizen Benefits")
+# 14. Check if a file path is valid.
+
 path=input("Enter the File_path:")
 if path != "":
     print("✅ The file path looks valid.")
